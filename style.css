@@ -22,14 +22,17 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .option {
     text-decoration: none;
     color: rgb(61, 61, 61);
     font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
 }
 body{
-    background-image: url(https://images6.alphacoders.com/107/thumb-1920-1072679.jpg);
+    background-image: url(https://i.pinimg.com/originals/37/e6/3c/37e63c9058765ed27f7b0d9775105133.jpg);
     background-size: 1920px 1080px;
     font-family: 'Montserrat', sans-serif;
     background-position: center;
@@ -40,7 +43,7 @@ body{
     justify-content: flex-end;
     text-align: center;
     height: 75vh;
-    color:whitesmoke;
+    color:goldenrod;
     padding-bottom: 30px;
 }
 .mainPage {
@@ -73,14 +76,14 @@ body{
     padding-left: 20px;
     font-size: 25px;
 }
-#about {
+.gray {
     background-color: rgb(61, 61, 61);
     padding: 20px;
     color: white;
     padding: 30px;
 
 }
-.school {
+.white {
     background-color: whitesmoke;
     padding: 20px;
     color: rgb(61,61,61);
